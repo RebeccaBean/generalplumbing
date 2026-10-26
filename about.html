@@ -1,0 +1,1918 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about General Plumbing & Septic Services, Inc. in Lake Isabella, California. Contact us about plumbing, septic services, and portable restroom rentals.">
+  <meta name="theme-color" content="#122C43">
+  <title>About Us & Contact | General Plumbing &amp; Septic Services, Inc.</title>
+
+  <style>
+    /* ==========================================================
+       GENERAL PLUMBING & SEPTIC SERVICES — ABOUT PAGE
+       File: about.html
+       Styling matched to index.html
+       ========================================================== */
+
+    #gp-about {
+      --navy: #122C43;
+      --navy-2: #193D59;
+      --blue: #1769AA;
+      --blue-2: #287FBD;
+      --gold: #F6B51B;
+      --gold-light: #FFD66F;
+      --ink: #203142;
+      --muted: #647586;
+      --white: #FFFFFF;
+      --paper: #F3F6F8;
+      --cream: #FFF8EA;
+      --line: #DFE7ED;
+      --radius: 18px;
+
+      font-family: Inter, "Segoe UI", Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--ink);
+      background: var(--white);
+      width: 100%;
+      overflow: hidden;
+      isolation: isolate;
+    }
+
+    #gp-about,
+    #gp-about * {
+      box-sizing: border-box;
+    }
+
+    #gp-about img {
+      display: block;
+      max-width: 100%;
+    }
+
+    #gp-about a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    #gp-about button,
+    #gp-about input,
+    #gp-about select,
+    #gp-about textarea {
+      font: inherit;
+    }
+
+    #gp-about h1,
+    #gp-about h2,
+    #gp-about h3,
+    #gp-about p {
+      margin-top: 0;
+    }
+
+    #gp-about h1,
+    #gp-about h2,
+    #gp-about h3 {
+      color: var(--navy);
+      line-height: 1.12;
+      letter-spacing: -0.045em;
+    }
+
+    #gp-about h1 {
+      font-size: clamp(2.55rem, 5.6vw, 4.8rem);
+      margin-bottom: 23px;
+    }
+
+    #gp-about h2 {
+      font-size: clamp(2rem, 3.8vw, 3.3rem);
+      margin-bottom: 18px;
+    }
+
+    #gp-about h3 {
+      font-size: 1.28rem;
+      letter-spacing: -0.025em;
+      margin-bottom: 10px;
+    }
+
+    #gp-about p {
+      color: var(--muted);
+    }
+
+    #gp-about .gp-wrap {
+      width: min(1180px, calc(100% - 48px));
+      margin-inline: auto;
+    }
+
+    #gp-about .gp-section {
+      padding: 88px 0;
+    }
+
+    #gp-about .gp-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--blue);
+      text-transform: uppercase;
+      letter-spacing: .16em;
+      font-size: .72rem;
+      font-weight: 900;
+      margin-bottom: 16px;
+    }
+
+    #gp-about .gp-kicker::before {
+      content: "";
+      width: 28px;
+      height: 3px;
+      background: var(--gold);
+      border-radius: 3px;
+    }
+
+    #gp-about .gp-kicker-light {
+      color: var(--gold-light);
+    }
+
+    #gp-about .gp-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 52px;
+      padding: 14px 22px;
+      border: 2px solid transparent;
+      border-radius: 8px;
+      font-size: .9rem;
+      font-weight: 850;
+      line-height: 1.2;
+      text-align: center;
+      cursor: pointer;
+      transition: transform .2s ease, background .2s ease, box-shadow .2s ease;
+    }
+
+    #gp-about .gp-btn:hover {
+      transform: translateY(-2px);
+    }
+
+    #gp-about .gp-btn-gold {
+      background: var(--gold);
+      color: var(--navy);
+      box-shadow: 0 10px 22px #061b2a2b;
+    }
+
+    #gp-about .gp-btn-gold:hover {
+      background: var(--gold-light);
+      color: var(--navy);
+    }
+
+    #gp-about .gp-btn-white {
+      background: var(--white);
+      color: var(--navy);
+    }
+
+    #gp-about .gp-btn-white:hover {
+      background: var(--cream);
+      color: var(--navy);
+    }
+
+    #gp-about .gp-btn-outline {
+      border-color: #ffffff75;
+      color: var(--white);
+      background: transparent;
+    }
+
+    #gp-about .gp-btn-outline:hover {
+      background: #ffffff14;
+      color: var(--white);
+    }
+
+    #gp-about .gp-arrow {
+      font-size: 1.1em;
+      transition: transform .2s ease;
+    }
+
+    #gp-about .gp-btn:hover .gp-arrow {
+      transform: translateX(3px);
+    }
+
+    /* ==========================================================
+       HEADER — MATCHES HOMEPAGE
+       ========================================================== */
+
+    #gp-about .gp-topline {
+      background: #0B2032;
+      color: #fff;
+      font-size: .78rem;
+    }
+
+    #gp-about .gp-topline-inner {
+      min-height: 39px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+    }
+
+    #gp-about .gp-topline p {
+      margin: 0;
+      color: #dbe4eb;
+    }
+
+    #gp-about .gp-topline a {
+      color: #fff;
+      font-weight: 850;
+      white-space: nowrap;
+      transition: color .2s ease;
+    }
+
+    #gp-about .gp-topline a:hover {
+      color: var(--gold-light);
+    }
+
+    #gp-about .gp-header {
+      position: relative;
+      z-index: 50;
+      background: #fff;
+      border-bottom: 1px solid var(--line);
+    }
+
+    #gp-about .gp-header-inner {
+      min-height: 88px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+    }
+
+    #gp-about .gp-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+    }
+
+    #gp-about .gp-logo-mark {
+      display: grid;
+      place-items: center;
+      width: 51px;
+      height: 51px;
+      flex: 0 0 51px;
+      border-radius: 14px 14px 14px 4px;
+      background: var(--blue);
+      border-bottom: 4px solid var(--gold);
+      color: #fff;
+      font-size: 1.15rem;
+      font-weight: 950;
+      letter-spacing: -.08em;
+    }
+
+    #gp-about .gp-brand-text {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.18;
+    }
+
+    #gp-about .gp-brand-title {
+      color: var(--navy);
+      font-size: .98rem;
+      font-weight: 950;
+      letter-spacing: -.035em;
+    }
+
+    #gp-about .gp-brand-subtitle {
+      margin-top: 4px;
+      color: var(--blue);
+      font-size: .65rem;
+      font-weight: 850;
+      text-transform: uppercase;
+      letter-spacing: .105em;
+    }
+
+    #gp-about .gp-nav {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    #gp-about .gp-nav a {
+      color: var(--navy);
+      font-size: .82rem;
+      font-weight: 800;
+      transition: color .2s ease;
+    }
+
+    #gp-about .gp-nav a:hover,
+    #gp-about .gp-nav a[aria-current="page"] {
+      color: var(--blue);
+    }
+
+    #gp-about .gp-nav .gp-nav-call {
+      padding: 12px 16px;
+      border-radius: 7px;
+      color: #fff;
+      background: var(--navy);
+    }
+
+    #gp-about .gp-nav .gp-nav-call:hover {
+      background: var(--blue);
+      color: #fff;
+    }
+
+    #gp-about .gp-menu-button {
+      display: none;
+      width: 46px;
+      height: 46px;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--navy);
+      background: #fff;
+      cursor: pointer;
+    }
+
+    #gp-about .gp-menu-button svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    /* ==========================================================
+       PAGE HERO
+       ========================================================== */
+
+    #gp-about .gp-hero {
+      position: relative;
+      isolation: isolate;
+      overflow: hidden;
+      color: #fff;
+      background: linear-gradient(115deg, #10283D 0%, #163F5D 56%, #1769AA 100%);
+    }
+
+    #gp-about .gp-hero::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      inset: 0;
+      background:
+        radial-gradient(circle at 80% 15%, #f6b51b2c, transparent 28%),
+        linear-gradient(90deg, #10283d 0%, #10283df2 45%, #10283d55 100%);
+    }
+
+    #gp-about .gp-hero-photo {
+      position: absolute;
+      z-index: -2;
+      inset: 0 0 0 35%;
+      width: 65%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    #gp-about .gp-hero-inner {
+      min-height: 470px;
+      display: flex;
+      align-items: center;
+    }
+
+    #gp-about .gp-hero-copy {
+      max-width: 760px;
+      padding: 76px 0 82px;
+    }
+
+    #gp-about .gp-hero h1 {
+      color: #fff;
+      max-width: 780px;
+    }
+
+    #gp-about .gp-hero h1 .gp-highlight {
+      color: var(--gold);
+    }
+
+    #gp-about .gp-hero-lead {
+      max-width: 650px;
+      color: #e0e9f0;
+      font-size: clamp(1rem, 1.5vw, 1.15rem);
+      margin-bottom: 28px;
+    }
+
+    #gp-about .gp-hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    /* ==========================================================
+       COMPANY HIGHLIGHTS
+       ========================================================== */
+
+    #gp-about .gp-trust-ribbon {
+      background: var(--gold);
+      color: var(--navy);
+    }
+
+    #gp-about .gp-trust-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    #gp-about .gp-trust-item {
+      min-height: 92px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      padding: 18px 14px;
+    }
+
+    #gp-about .gp-trust-item + .gp-trust-item {
+      border-left: 1px solid #122c4326;
+    }
+
+    #gp-about .gp-trust-icon {
+      font-size: 1.4rem;
+      font-weight: 900;
+    }
+
+    #gp-about .gp-trust-item strong {
+      display: block;
+      font-size: .86rem;
+      line-height: 1.25;
+      color: var(--navy);
+    }
+
+    #gp-about .gp-trust-item span {
+      display: block;
+      margin-top: 3px;
+      font-size: .7rem;
+      opacity: .85;
+    }
+
+    #gp-about .gp-trust-item a:hover {
+      color: var(--blue);
+    }
+
+    /* ==========================================================
+       COMPANY STORY
+       ========================================================== */
+
+    #gp-about .gp-story-grid {
+      display: grid;
+      grid-template-columns: .95fr 1.05fr;
+      gap: 74px;
+      align-items: center;
+    }
+
+    #gp-about .gp-story-visual {
+      position: relative;
+      min-height: 490px;
+    }
+
+    #gp-about .gp-story-photo {
+      position: absolute;
+      inset: 0 35px 38px 0;
+      width: calc(100% - 35px);
+      height: calc(100% - 38px);
+      object-fit: cover;
+      border-radius: 18px;
+    }
+
+    #gp-about .gp-story-accent {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 190px;
+      padding: 22px;
+      border-radius: 12px;
+      background: var(--gold);
+      color: var(--navy);
+      box-shadow: 0 15px 30px #122c4320;
+    }
+
+    #gp-about .gp-story-accent strong {
+      display: block;
+      font-size: 1.65rem;
+      line-height: 1.1;
+      letter-spacing: -.05em;
+    }
+
+    #gp-about .gp-story-accent span {
+      display: block;
+      margin-top: 8px;
+      font-size: .75rem;
+      font-weight: 800;
+      line-height: 1.35;
+    }
+
+    #gp-about .gp-story-copy .gp-lead {
+      color: var(--navy);
+      font-size: 1.12rem;
+      font-weight: 750;
+    }
+
+    #gp-about .gp-story-copy p {
+      margin-bottom: 17px;
+    }
+
+    #gp-about .gp-story-bullets {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 13px 18px;
+      padding: 0;
+      margin: 26px 0 29px;
+      list-style: none;
+    }
+
+    #gp-about .gp-story-bullets li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      color: var(--ink);
+      font-size: .83rem;
+      font-weight: 800;
+    }
+
+    #gp-about .gp-story-bullets li::before {
+      content: "✓";
+      flex: 0 0 22px;
+      width: 22px;
+      height: 22px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: #E3F3E7;
+      color: #24713B;
+      font-size: .7rem;
+    }
+
+    /* ==========================================================
+       VALUES / WHAT TO EXPECT
+       ========================================================== */
+
+    #gp-about .gp-values {
+      background: var(--paper);
+    }
+
+    #gp-about .gp-section-intro {
+      max-width: 720px;
+      margin: 0 auto 45px;
+      text-align: center;
+    }
+
+    #gp-about .gp-section-intro p {
+      max-width: 630px;
+      margin: 0 auto;
+    }
+
+    #gp-about .gp-values-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    #gp-about .gp-value-card {
+      padding: 30px 27px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: 0 8px 24px #122c4308;
+      transition: transform .25s ease, box-shadow .25s ease;
+    }
+
+    #gp-about .gp-value-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 40px #122c4318;
+    }
+
+    #gp-about .gp-value-icon {
+      display: grid;
+      place-items: center;
+      width: 49px;
+      height: 49px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      background: var(--cream);
+      color: var(--blue);
+      font-size: 1.45rem;
+      font-weight: 900;
+    }
+
+    #gp-about .gp-value-card h3 {
+      font-size: 1.3rem;
+    }
+
+    #gp-about .gp-value-card p {
+      font-size: .88rem;
+      margin: 0;
+    }
+
+    /* ==========================================================
+       REPUTATION — NO UNSUPPORTED RATINGS OR ACCREDITATION CLAIMS
+       ========================================================== */
+
+    #gp-about .gp-reputation {
+      background: #fff;
+    }
+
+    #gp-about .gp-reputation-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      margin-inline: auto;
+    }
+
+    #gp-about .gp-reputation-card {
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fff;
+      box-shadow: 0 8px 24px #122c4308;
+    }
+
+    #gp-about .gp-reputation-label {
+      color: var(--blue);
+      font-size: .72rem;
+      font-weight: 950;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      margin-bottom: 13px;
+    }
+
+    #gp-about .gp-reputation-card h3 {
+      font-size: 1.4rem;
+      margin-bottom: 12px;
+    }
+
+    #gp-about .gp-reputation-card p {
+      font-size: .87rem;
+      margin-bottom: 15px;
+    }
+
+    #gp-about .gp-reputation-card a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--blue);
+      font-size: .85rem;
+      font-weight: 900;
+      transition: color .2s ease;
+    }
+
+    #gp-about .gp-reputation-card a:hover {
+      color: var(--navy);
+    }
+
+    /* ==========================================================
+       CONTACT CALLOUT
+       ========================================================== */
+
+    #gp-about .gp-callout {
+      background: var(--navy);
+      color: #fff;
+    }
+
+    #gp-about .gp-callout-inner {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 35px;
+      padding: 48px 0;
+    }
+
+    #gp-about .gp-callout h2 {
+      color: #fff;
+      font-size: clamp(1.75rem, 3vw, 2.6rem);
+      margin-bottom: 9px;
+    }
+
+    #gp-about .gp-callout p {
+      margin: 0;
+      color: #d3dfe8;
+      max-width: 680px;
+    }
+
+    #gp-about .gp-callout .gp-btn {
+      white-space: nowrap;
+    }
+
+    /* ==========================================================
+       CONTACT DETAILS AND FORM
+       ========================================================== */
+
+    #gp-about .gp-contact {
+      background: linear-gradient(130deg, #112A40, #194F76);
+      color: #fff;
+    }
+
+    #gp-about .gp-contact-grid {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 65px;
+      align-items: start;
+    }
+
+    #gp-about .gp-contact h2 {
+      color: #fff;
+    }
+
+    #gp-about .gp-contact-copy > p {
+      color: #d8e4ec;
+    }
+
+    #gp-about .gp-contact-details {
+      display: grid;
+      gap: 19px;
+      margin-top: 29px;
+    }
+
+    #gp-about .gp-contact-detail {
+      display: flex;
+      gap: 13px;
+      align-items: flex-start;
+    }
+
+    #gp-about .gp-contact-detail-icon {
+      display: grid;
+      place-items: center;
+      flex: 0 0 42px;
+      width: 42px;
+      height: 42px;
+      border-radius: 10px;
+      background: #ffffff14;
+      color: var(--gold);
+      font-size: 1.15rem;
+    }
+
+    #gp-about .gp-contact-detail strong {
+      display: block;
+      color: #fff;
+      font-size: .8rem;
+      margin-bottom: 3px;
+    }
+
+    #gp-about .gp-contact-detail span,
+    #gp-about .gp-contact-detail a {
+      color: #d8e4ec;
+      font-size: .86rem;
+    }
+
+    #gp-about .gp-contact-detail a:hover {
+      color: var(--gold-light);
+    }
+
+    #gp-about .gp-form-card {
+      background: #fff;
+      color: var(--ink);
+      border-radius: 16px;
+      padding: 34px;
+      box-shadow: 0 22px 55px #071b2b40;
+    }
+
+    #gp-about .gp-form-card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 8px;
+    }
+
+    #gp-about .gp-form-card > p {
+      font-size: .84rem;
+      margin-bottom: 23px;
+    }
+
+    #gp-about .gp-form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    #gp-about .gp-field {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    #gp-about .gp-field-full {
+      grid-column: 1 / -1;
+    }
+
+    #gp-about .gp-field label {
+      color: var(--navy);
+      font-size: .75rem;
+      font-weight: 850;
+    }
+
+    #gp-about .gp-field input,
+    #gp-about .gp-field select,
+    #gp-about .gp-field textarea {
+      width: 100%;
+      min-height: 46px;
+      padding: 11px 12px;
+      border: 1px solid #D8E1E8;
+      border-radius: 7px;
+      color: var(--ink);
+      background: #fff;
+      outline: none;
+      font-size: .84rem;
+    }
+
+    #gp-about .gp-field textarea {
+      min-height: 105px;
+      resize: vertical;
+    }
+
+    #gp-about .gp-field input:focus,
+    #gp-about .gp-field select:focus,
+    #gp-about .gp-field textarea:focus {
+      border-color: var(--blue);
+      box-shadow: 0 0 0 3px #1769aa18;
+    }
+
+    #gp-about .gp-form-submit {
+      width: 100%;
+      margin-top: 17px;
+    }
+
+    #gp-about .gp-form-disclaimer {
+      margin: 12px 0 0;
+      font-size: .7rem;
+      color: #758493;
+    }
+
+    #gp-about .gp-form-status {
+      display: none;
+      margin-top: 13px;
+      padding: 12px;
+      border-radius: 7px;
+      background: #FFF3D1;
+      color: #654A00;
+      font-size: .8rem;
+    }
+
+    /* ==========================================================
+       SERVICE AREA
+       ========================================================== */
+
+    #gp-about .gp-area {
+      background: var(--paper);
+    }
+
+    #gp-about .gp-area-inner {
+      display: grid;
+      grid-template-columns: 1fr .9fr;
+      gap: 55px;
+      align-items: center;
+    }
+
+    #gp-about .gp-area-copy p {
+      max-width: 580px;
+    }
+
+    #gp-about .gp-area-panel {
+      padding: 35px;
+      border-radius: 16px;
+      background: var(--navy);
+      color: #fff;
+    }
+
+    #gp-about .gp-area-panel h3 {
+      color: #fff;
+      font-size: 1.55rem;
+    }
+
+    #gp-about .gp-area-panel > p {
+      color: #d3dfe8;
+    }
+
+    #gp-about .gp-area-address {
+      padding-top: 18px;
+      margin-top: 18px;
+      border-top: 1px solid #ffffff24;
+    }
+
+    #gp-about .gp-area-address strong {
+      display: block;
+      color: var(--gold-light);
+      font-size: .75rem;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      margin-bottom: 5px;
+    }
+
+    #gp-about .gp-area-address span,
+    #gp-about .gp-area-address a {
+      color: #fff;
+      font-size: .94rem;
+    }
+
+    #gp-about .gp-area-address a:hover {
+      color: var(--gold-light);
+    }
+
+    /* ==========================================================
+       FOOTER — MATCHES HOMEPAGE
+       ========================================================== */
+
+    #gp-about .gp-footer {
+      padding: 55px 0 20px;
+      background: #091D2D;
+      color: #fff;
+    }
+
+    #gp-about .gp-footer-grid {
+      display: grid;
+      grid-template-columns: 1.25fr .75fr 1fr;
+      gap: 45px;
+      padding-bottom: 37px;
+    }
+
+    #gp-about .gp-footer .gp-brand-title {
+      color: #fff;
+    }
+
+    #gp-about .gp-footer .gp-brand-subtitle {
+      color: var(--gold);
+    }
+
+    #gp-about .gp-footer-about {
+      max-width: 350px;
+      margin: 18px 0 0;
+      color: #aebfcd;
+      font-size: .82rem;
+    }
+
+    #gp-about .gp-footer h3 {
+      color: #fff;
+      font-size: .95rem;
+      letter-spacing: 0;
+      margin-bottom: 17px;
+    }
+
+    #gp-about .gp-footer-links {
+      display: grid;
+      gap: 10px;
+    }
+
+    #gp-about .gp-footer-links a,
+    #gp-about .gp-footer-contact p,
+    #gp-about .gp-footer-contact a {
+      color: #b9c8d3;
+      font-size: .81rem;
+      margin: 0;
+      transition: color .2s ease;
+    }
+
+    #gp-about .gp-footer-links a:hover,
+    #gp-about .gp-footer-contact a:hover {
+      color: var(--gold-light);
+    }
+
+    #gp-about .gp-footer-contact {
+      display: grid;
+      gap: 13px;
+    }
+
+    #gp-about .gp-footer-contact strong {
+      display: block;
+      color: #fff;
+      font-size: .73rem;
+      margin-bottom: 3px;
+    }
+
+    #gp-about .gp-footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      padding-top: 20px;
+      border-top: 1px solid #ffffff20;
+      color: #8297a8;
+      font-size: .7rem;
+    }
+
+    #gp-about .gp-footer-bottom p {
+      color: inherit;
+      margin: 0;
+    }
+
+    #gp-about .gp-mobile-call {
+      display: none;
+    }
+
+    /* ==========================================================
+       RESPONSIVE STYLES
+       ========================================================== */
+
+    @media (max-width: 1000px) {
+      #gp-about .gp-nav {
+        gap: 15px;
+      }
+
+      #gp-about .gp-nav a {
+        font-size: .76rem;
+      }
+
+      #gp-about .gp-story-grid {
+        gap: 45px;
+      }
+    }
+
+    @media (max-width: 760px) {
+      #gp-about .gp-wrap {
+        width: min(100% - 34px, 600px);
+      }
+
+      #gp-about .gp-section {
+        padding: 68px 0;
+      }
+
+      #gp-about .gp-topline-inner {
+        justify-content: center;
+        min-height: 37px;
+      }
+
+      #gp-about .gp-topline .gp-topline-message {
+        display: none;
+      }
+
+      #gp-about .gp-header-inner {
+        min-height: 76px;
+      }
+
+      #gp-about .gp-logo-mark {
+        width: 45px;
+        height: 45px;
+        flex-basis: 45px;
+      }
+
+      #gp-about .gp-brand-title {
+        font-size: .87rem;
+      }
+
+      #gp-about .gp-brand-subtitle {
+        font-size: .58rem;
+      }
+
+      #gp-about .gp-menu-button {
+        display: inline-flex;
+      }
+
+      #gp-about .gp-nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        padding: 13px 20px 21px;
+        background: #fff;
+        border-bottom: 1px solid var(--line);
+        box-shadow: 0 16px 26px #122c4317;
+        align-items: stretch;
+        gap: 0;
+      }
+
+      #gp-about .gp-nav.gp-nav-open {
+        display: flex;
+        flex-direction: column;
+      }
+
+      #gp-about .gp-nav a {
+        padding: 13px 5px;
+        border-bottom: 1px solid #edf1f4;
+        font-size: .9rem;
+      }
+
+      #gp-about .gp-nav .gp-nav-call {
+        margin-top: 12px;
+        text-align: center;
+        border-bottom: 0;
+        padding: 13px 15px;
+      }
+
+      #gp-about .gp-hero-photo {
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-position: center;
+      }
+
+      #gp-about .gp-hero::before {
+        background: linear-gradient(
+          90deg,
+          #10283df7 0%,
+          #10283de8 60%,
+          #10283db8 100%
+        );
+      }
+
+      #gp-about .gp-hero-inner {
+        display: block;
+        min-height: auto;
+      }
+
+      #gp-about .gp-hero-copy {
+        padding: 65px 0 70px;
+      }
+
+      #gp-about .gp-hero h1 {
+        font-size: clamp(2.55rem, 10vw, 4.1rem);
+      }
+
+      #gp-about .gp-hero-lead {
+        font-size: 1rem;
+      }
+
+      #gp-about .gp-trust-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      #gp-about .gp-trust-item {
+        justify-content: flex-start;
+        min-height: 82px;
+        padding: 15px 12px;
+      }
+
+      #gp-about .gp-trust-item:nth-child(3) {
+        border-left: 0;
+      }
+
+      #gp-about .gp-trust-item:nth-child(n+3) {
+        border-top: 1px solid #122c4326;
+      }
+
+      #gp-about .gp-story-grid,
+      #gp-about .gp-area-inner,
+      #gp-about .gp-contact-grid {
+        grid-template-columns: 1fr;
+        gap: 36px;
+      }
+
+      #gp-about .gp-story-visual {
+        min-height: 350px;
+      }
+
+      #gp-about .gp-story-photo {
+        inset: 0 25px 27px 0;
+        width: calc(100% - 25px);
+        height: calc(100% - 27px);
+      }
+
+      #gp-about .gp-story-accent {
+        width: 155px;
+        padding: 17px;
+      }
+
+      #gp-about .gp-story-accent strong {
+        font-size: 1.45rem;
+      }
+
+      #gp-about .gp-values-grid {
+        grid-template-columns: 1fr;
+        gap: 17px;
+      }
+
+      #gp-about .gp-value-card {
+        padding: 25px 23px;
+      }
+
+      #gp-about .gp-reputation-grid {
+        grid-template-columns: 1fr;
+      }
+
+      #gp-about .gp-reputation-card {
+        padding: 25px;
+      }
+
+      #gp-about .gp-callout-inner {
+        grid-template-columns: 1fr;
+        gap: 23px;
+        padding: 38px 0;
+      }
+
+      #gp-about .gp-callout .gp-btn {
+        justify-self: start;
+      }
+
+      #gp-about .gp-contact-grid {
+        gap: 34px;
+      }
+
+      #gp-about .gp-form-card {
+        padding: 25px 20px;
+      }
+
+      #gp-about .gp-area-panel {
+        padding: 28px;
+      }
+
+      #gp-about .gp-footer-grid {
+        grid-template-columns: 1fr;
+        gap: 29px;
+      }
+
+      #gp-about .gp-footer-bottom {
+        flex-direction: column;
+      }
+
+      #gp-about .gp-mobile-call {
+        display: flex;
+        position: fixed;
+        z-index: 100;
+        left: 13px;
+        right: 13px;
+        bottom: 13px;
+        min-height: 53px;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        border-radius: 10px;
+        background: var(--gold);
+        color: var(--navy);
+        font-weight: 950;
+        box-shadow: 0 8px 25px #0004;
+      }
+
+      #gp-about .gp-footer {
+        padding-bottom: 92px;
+      }
+    }
+
+    @media (max-width: 430px) {
+      #gp-about .gp-wrap {
+        width: calc(100% - 28px);
+      }
+
+      #gp-about .gp-hero-actions {
+        flex-direction: column;
+      }
+
+      #gp-about .gp-hero-actions .gp-btn {
+        width: 100%;
+      }
+
+      #gp-about .gp-story-bullets {
+        grid-template-columns: 1fr;
+      }
+
+      #gp-about .gp-form-grid {
+        grid-template-columns: 1fr;
+      }
+
+      #gp-about .gp-field-full {
+        grid-column: auto;
+      }
+
+      #gp-about .gp-btn {
+        max-width: 100%;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      #gp-about *,
+      #gp-about *::before,
+      #gp-about *::after {
+        transition: none !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+<div id="gp-about">
+
+  <!-- TOP CONTACT STRIP -->
+  <div class="gp-topline">
+    <div class="gp-wrap gp-topline-inner">
+      <p class="gp-topline-message">
+        Plumbing, septic &amp; restroom services in Lake Isabella, California
+      </p>
+      <p>Questions? <a href="tel:+17603763309">(760) 376-3309</a></p>
+    </div>
+  </div>
+
+  <!-- HEADER: MATCHES INDEX.HTML -->
+  <header class="gp-header">
+    <div class="gp-wrap gp-header-inner">
+      <a class="gp-brand" href="index.html" aria-label="General Plumbing and Septic Services home">
+        <span class="gp-logo-mark" aria-hidden="true">GP</span>
+        <span class="gp-brand-text">
+          <span class="gp-brand-title">General Plumbing</span>
+          <span class="gp-brand-subtitle">&amp; Septic Services, Inc.</span>
+        </span>
+      </a>
+
+      <button
+        class="gp-menu-button"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="gp-main-nav">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+
+      <nav class="gp-nav" id="gp-main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html" aria-current="page">About Us</a>
+        <a href="services.html">Plumbing</a>
+        <a href="septic-services.html">Septic</a>
+        <a href="portable-restrooms.html">Restroom Rentals</a>
+        <a class="gp-nav-call" href="tel:+17603763309">Call Our Team</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- PAGE HERO -->
+    <section class="gp-hero">
+      <img
+        class="gp-hero-photo"
+        src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&amp;fit=crop&amp;w=1800&amp;q=88"
+        alt=""
+        fetchpriority="high">
+
+      <div class="gp-wrap gp-hero-inner">
+        <div class="gp-hero-copy">
+          <span class="gp-kicker gp-kicker-light">About Our Company</span>
+          <h1>
+            Local Service.<br>
+            <span class="gp-highlight">Practical Solutions.</span><br>
+            Clear Communication.
+          </h1>
+          <p class="gp-hero-lead">
+            General Plumbing &amp; Septic Services, Inc. serves customers from
+            its Lake Isabella, California location. Learn about the company,
+            explore our services, or contact the team about your needs.
+          </p>
+          <div class="gp-hero-actions">
+            <a class="gp-btn gp-btn-gold" href="#gp-contact">
+              Contact Our Team <span class="gp-arrow" aria-hidden="true">→</span>
+            </a>
+            <a class="gp-btn gp-btn-outline" href="services.html">
+              Explore Services
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPANY HIGHLIGHTS -->
+    <section class="gp-trust-ribbon" aria-label="Company information">
+      <div class="gp-wrap gp-trust-grid">
+        <div class="gp-trust-item">
+          <span class="gp-trust-icon" aria-hidden="true">◷</span>
+          <div>
+            <strong>Since 1991</strong>
+            <span>Company-published history</span>
+          </div>
+        </div>
+
+        <div class="gp-trust-item">
+          <span class="gp-trust-icon" aria-hidden="true">✓</span>
+          <div>
+            <strong>License #896692</strong>
+            <span>Published license number</span>
+          </div>
+        </div>
+
+        <div class="gp-trust-item">
+          <span class="gp-trust-icon" aria-hidden="true">⌂</span>
+          <div>
+            <strong>Lake Isabella</strong>
+            <span>California business location</span>
+          </div>
+        </div>
+
+        <div class="gp-trust-item">
+          <span class="gp-trust-icon" aria-hidden="true">☎</span>
+          <div>
+            <strong>Talk to the Team</strong>
+            <span><a href="tel:+17603763309">760-376-3309</a></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPANY STORY -->
+    <section class="gp-section">
+      <div class="gp-wrap gp-story-grid">
+
+        <div class="gp-story-visual">
+          <img
+            class="gp-story-photo"
+            src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&amp;fit=crop&amp;w=1100&amp;q=85"
+            alt="Professional equipment and service work"
+            loading="lazy">
+
+          <div class="gp-story-accent">
+            <strong>Since 1991</strong>
+            <span>A company history rooted in plumbing and septic service</span>
+          </div>
+        </div>
+
+        <div class="gp-story-copy">
+          <span class="gp-kicker">Who We Are</span>
+          <h2>A Local Company for Essential Services.</h2>
+
+          <p class="gp-lead">Dedication. Reliability. Value.</p>
+
+          <p>
+            General Plumbing &amp; Septic Services, Inc. is based in Lake
+            Isabella, California. The company's published history dates to
+            1991, and its listed services cover plumbing, septic systems,
+            and portable restroom rentals.
+          </p>
+
+          <p>
+            When something needs attention at your home, property, or event,
+            finding the right service is an important first step. We want
+            customers to be able to identify the service they need and reach
+            the company directly to discuss their situation.
+          </p>
+
+          <p>
+            Every property and service request is different. Contact the team
+            to explain what you need, ask questions, and confirm availability
+            for your location.
+          </p>
+
+          <ul class="gp-story-bullets">
+            <li>Plumbing services</li>
+            <li>Septic services</li>
+            <li>Portable restroom options</li>
+            <li>Direct phone contact</li>
+          </ul>
+
+          <a class="gp-btn gp-btn-gold" href="#gp-contact">
+            Get in Touch <span class="gp-arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- VALUES / WHAT TO EXPECT -->
+    <section class="gp-section gp-values">
+      <div class="gp-wrap">
+
+        <div class="gp-section-intro">
+          <span class="gp-kicker">What Matters to Us</span>
+          <h2>Start With the Right Information.</h2>
+          <p>
+            Whether you're planning a project or dealing with a service issue,
+            a clear conversation can help you understand what to do next.
+          </p>
+        </div>
+
+        <div class="gp-values-grid">
+
+          <article class="gp-value-card">
+            <div class="gp-value-icon" aria-hidden="true">✓</div>
+            <h3>Clear Communication</h3>
+            <p>
+              Explain what is happening or what you are planning. Contact the
+              team to discuss your questions and find out which service may
+              fit your needs.
+            </p>
+          </article>
+
+          <article class="gp-value-card">
+            <div class="gp-value-icon" aria-hidden="true">⌂</div>
+            <h3>Multiple Service Options</h3>
+            <p>
+              Plumbing, septic, and portable restroom services are listed
+              through one company, making it easier to find the appropriate
+              place to start.
+            </p>
+          </article>
+
+          <article class="gp-value-card">
+            <div class="gp-value-icon" aria-hidden="true">☎</div>
+            <h3>Direct Contact</h3>
+            <p>
+              Speak with the company about your situation, ask about service
+              availability, and confirm the details before scheduling work
+              or making rental arrangements.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- REPUTATION / SERVICE INFORMATION
+         No numerical rating or accreditation claim is displayed. -->
+    <section class="gp-section gp-reputation">
+      <div class="gp-wrap">
+
+        <div class="gp-section-intro">
+          <span class="gp-kicker">Our Services</span>
+          <h2>Find the Help You Need.</h2>
+          <p>
+            Explore the company's listed service categories or contact the
+            team to discuss your particular needs.
+          </p>
+        </div>
+
+        <div class="gp-reputation-grid">
+
+          <article class="gp-reputation-card">
+            <div class="gp-reputation-label">Residential &amp; Property</div>
+            <h3>Plumbing &amp; Septic Services</h3>
+            <p>
+              Explore plumbing repairs, repiping, rooter service, leak
+              detection, water heaters, septic pumping, inspections, RV
+              pumping, and related services.
+            </p>
+            <a href="services.html">
+              Explore plumbing <span aria-hidden="true">→</span>
+            </a>
+            <br>
+            <a href="septic-services.html" style="margin-top:12px;">
+              Explore septic services <span aria-hidden="true">→</span>
+            </a>
+          </article>
+
+          <article class="gp-reputation-card">
+            <div class="gp-reputation-label">Events &amp; Rentals</div>
+            <h3>Portable Restroom Options</h3>
+            <p>
+              Ask about portable toilets, portable sinks, ADA options, and
+              the Elite Restroom Trailer. Confirm availability and rental
+              details directly with the company.
+            </p>
+            <a href="portable-restrooms.html">
+              Explore restroom rentals <span aria-hidden="true">→</span>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section class="gp-callout">
+      <div class="gp-wrap gp-callout-inner">
+        <div>
+          <span class="gp-kicker gp-kicker-light">Have a Question?</span>
+          <h2>Let's Talk About What You Need.</h2>
+          <p>
+            Tell us what service you're looking for and ask about availability
+            for your property, project, or event.
+          </p>
+        </div>
+
+        <a class="gp-btn gp-btn-gold" href="tel:+17603763309">
+          Call (760) 376-3309
+          <span class="gp-arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT DETAILS AND FORM -->
+    <section class="gp-section gp-contact" id="gp-contact">
+      <div class="gp-wrap gp-contact-grid">
+
+        <div class="gp-contact-copy">
+          <span class="gp-kicker gp-kicker-light">Get in Touch</span>
+          <h2>Contact General Plumbing &amp; Septic Services.</h2>
+
+          <p>
+            Call the company directly to ask about plumbing, septic services,
+            or portable restroom rentals. You can also use the inquiry form
+            after it has been connected to the business's lead-management
+            system.
+          </p>
+
+          <div class="gp-contact-details">
+
+            <div class="gp-contact-detail">
+              <span class="gp-contact-detail-icon" aria-hidden="true">☎</span>
+              <div>
+                <strong>Call the Company</strong>
+                <span>
+                  <a href="tel:+17603763309">(760) 376-3309</a>
+                </span>
+              </div>
+            </div>
+
+            <div class="gp-contact-detail">
+              <span class="gp-contact-detail-icon" aria-hidden="true">⌂</span>
+              <div>
+                <strong>Street Address</strong>
+                <span>
+                  4621 Lake Isabella Blvd<br>
+                  Lake Isabella, CA 93240
+                </span>
+              </div>
+            </div>
+
+            <div class="gp-contact-detail">
+              <span class="gp-contact-detail-icon" aria-hidden="true">✉</span>
+              <div>
+                <strong>Mailing Address</strong>
+                <span>
+                  PO Box 847<br>
+                  Lake Isabella, CA 93240
+                </span>
+              </div>
+            </div>
+
+            <div class="gp-contact-detail">
+              <span class="gp-contact-detail-icon" aria-hidden="true">✓</span>
+              <div>
+                <strong>License Information</strong>
+                <span>Company-published California license #896692</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="gp-form-card">
+          <h3>Request a Conversation</h3>
+          <p>
+            Share a few details about the service you're interested in.
+          </p>
+
+          <!-- DEMO ONLY:
+               Connect this form to a HighLevel form or approved submission
+               endpoint before publishing. It does not currently save leads. -->
+
+          <form class="gp-inquiry-form">
+            <div class="gp-form-grid">
+
+              <div class="gp-field">
+                <label for="gp-about-name">Your name *</label>
+                <input
+                  id="gp-about-name"
+                  name="name"
+                  type="text"
+                  autocomplete="name"
+                  required
+                  placeholder="Full name">
+              </div>
+
+              <div class="gp-field">
+                <label for="gp-about-phone">Phone number *</label>
+                <input
+                  id="gp-about-phone"
+                  name="phone"
+                  type="tel"
+                  autocomplete="tel"
+                  required
+                  placeholder="(555) 555-5555">
+              </div>
+
+              <div class="gp-field gp-field-full">
+                <label for="gp-about-email">Email address</label>
+                <input
+                  id="gp-about-email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  placeholder="you@example.com">
+              </div>
+
+              <div class="gp-field gp-field-full">
+                <label for="gp-about-service">What service are you interested in? *</label>
+                <select id="gp-about-service" name="service" required>
+                  <option value="">Choose a service</option>
+                  <option>Plumbing service</option>
+                  <option>Septic service</option>
+                  <option>RV pumping</option>
+                  <option>Portable restroom rental</option>
+                  <option>Portable sink rental</option>
+                  <option>Elite Restroom Trailer</option>
+                  <option>Other / not sure</option>
+                </select>
+              </div>
+
+              <div class="gp-field gp-field-full">
+                <label for="gp-about-message">How can we help?</label>
+                <textarea
+                  id="gp-about-message"
+                  name="message"
+                  placeholder="Briefly describe what you need."></textarea>
+              </div>
+
+            </div>
+
+            <button class="gp-btn gp-btn-gold gp-form-submit" type="submit">
+              Submit Inquiry
+              <span class="gp-arrow" aria-hidden="true">→</span>
+            </button>
+
+            <p class="gp-form-disclaimer">
+              Preview form only. Your information is not sent or saved.
+              Connect a HighLevel form before publishing.
+            </p>
+
+            <div class="gp-form-status" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SERVICE AREA -->
+    <section class="gp-section gp-area">
+      <div class="gp-wrap gp-area-inner">
+
+        <div class="gp-area-copy">
+          <span class="gp-kicker">Based in Lake Isabella</span>
+          <h2>Serving Your Plumbing, Septic &amp; Rental Needs.</h2>
+
+          <p>
+            General Plumbing &amp; Septic Services, Inc. lists its business
+            location in Lake Isabella, California. Contact the company to
+            confirm service availability for your specific address.
+          </p>
+
+          <p>
+            If you're outside Lake Isabella, ask whether service is available
+            in your area before making arrangements.
+          </p>
+
+          <a class="gp-btn gp-btn-gold" href="tel:+17603763309">
+            Call to Ask About Service
+            <span class="gp-arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <div class="gp-area-panel">
+          <span class="gp-kicker gp-kicker-light">Company Information</span>
+          <h3>General Plumbing &amp; Septic Services, Inc.</h3>
+          <p>Contact the company directly for service questions and inquiries.</p>
+
+          <div class="gp-area-address">
+            <strong>Street Address</strong>
+            <span>
+              4621 Lake Isabella Blvd<br>
+              Lake Isabella, CA 93240
+            </span>
+          </div>
+
+          <div class="gp-area-address">
+            <strong>Mailing Address</strong>
+            <span>
+              PO Box 847<br>
+              Lake Isabella, CA 93240
+            </span>
+          </div>
+
+          <div class="gp-area-address">
+            <strong>Phone</strong>
+            <span><a href="tel:+17603763309">(760) 376-3309</a></span>
+          </div>
+
+          <div class="gp-area-address">
+            <strong>California License</strong>
+            <span>#896692</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER: MATCHES HOMEPAGE -->
+  <footer class="gp-footer">
+    <div class="gp-wrap">
+
+      <div class="gp-footer-grid">
+
+        <div>
+          <a class="gp-brand" href="index.html" aria-label="General Plumbing and Septic Services home">
+            <span class="gp-logo-mark" aria-hidden="true">GP</span>
+            <span class="gp-brand-text">
+              <span class="gp-brand-title">General Plumbing</span>
+              <span class="gp-brand-subtitle">&amp; Septic Services, Inc.</span>
+            </span>
+          </a>
+
+          <p class="gp-footer-about">
+            Plumbing, septic, and portable restroom services from a Lake
+            Isabella company whose published history dates to 1991.
+          </p>
+        </div>
+
+        <div>
+          <h3>Explore the Website</h3>
+          <div class="gp-footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us &amp; Contact</a>
+            <a href="services.html">Plumbing Services</a>
+            <a href="septic-services.html">Septic Services</a>
+            <a href="portable-restrooms.html">Portable Restrooms &amp; Rentals</a>
+          </div>
+        </div>
+
+        <div class="gp-footer-contact">
+          <h3>Contact Details</h3>
+
+          <p>
+            <strong>Phone</strong>
+            <a href="tel:+17603763309">(760) 376-3309</a>
+          </p>
+
+          <p>
+            <strong>Street Address</strong>
+            4621 Lake Isabella Blvd<br>
+            Lake Isabella, CA 93240
+          </p>
+
+          <p>
+            <strong>Mailing Address</strong>
+            PO Box 847<br>
+            Lake Isabella, CA 93240
+          </p>
+
+          <p>
+            <strong>California License</strong>
+            #896692
+          </p>
+        </div>
+
+      </div>
+
+      <div class="gp-footer-bottom">
+        <p>
+          © <span class="gp-current-year"></span>
+          General Plumbing &amp; Septic Services, Inc.
+        </p>
+        <p>Dedication. Reliability. Value.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- MOBILE CALL BUTTON -->
+  <a
+    class="gp-mobile-call"
+    href="tel:+17603763309"
+    aria-label="Call General Plumbing and Septic Services at 760-376-3309">
+    <span aria-hidden="true">☎</span>
+    Call (760) 376-3309
+  </a>
+
+</div>
+
+<script>
+(function () {
+  const root = document.getElementById("gp-about");
+  if (!root) return;
+
+  // Mobile navigation
+  const menuButton = root.querySelector(".gp-menu-button");
+  const nav = root.querySelector("#gp-main-nav");
+
+  if (menuButton && nav) {
+    menuButton.addEventListener("click", function () {
+      const open = nav.classList.toggle("gp-nav-open");
+
+      menuButton.setAttribute("aria-expanded", String(open));
+      menuButton.setAttribute(
+        "aria-label",
+        open ? "Close navigation menu" : "Open navigation menu"
+      );
+    });
+
+    nav.querySelectorAll("a").forEach(function (link) {
+      link.addEventListener("click", function () {
+        nav.classList.remove("gp-nav-open");
+        menuButton.setAttribute("aria-expanded", "false");
+        menuButton.setAttribute("aria-label", "Open navigation menu");
+      });
+    });
+
+    document.addEventListener("click", function (event) {
+      if (!root.contains(event.target)) {
+        nav.classList.remove("gp-nav-open");
+        menuButton.setAttribute("aria-expanded", "false");
+        menuButton.setAttribute("aria-label", "Open navigation menu");
+      }
+    });
+  }
+
+  // Footer year
+  root.querySelectorAll(".gp-current-year").forEach(function (element) {
+    element.textContent = new Date().getFullYear();
+  });
+
+  // Preview-only form behavior.
+  // This does not send or save customer information.
+  const form = root.querySelector(".gp-inquiry-form");
+  const status = root.querySelector(".gp-form-status");
+
+  if (form && status) {
+    form.addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      status.style.display = "block";
+      status.textContent =
+        "This is a preview form only. Your inquiry has not been sent or saved. Connect a HighLevel form before publishing.";
+    });
+  }
+})();
+</script>
+</body>
+</html>
